@@ -1,0 +1,4 @@
+bin/ofxMedianFilter  
+bin/ofxMedianFilter_debug
+*~
+data/
