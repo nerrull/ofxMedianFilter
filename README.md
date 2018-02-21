@@ -5,10 +5,10 @@ For the moment it only supports the sorting based on pixel hue.
 
 I added some extra controls though
 
-*1 and 2 change the index of sort selector
+* 1 and 2 change the index of sort selector
 
-*wasd shifts the image around
+* wasd shifts the image around
 
-*q and e shift colours read by one byte which gives a nice coloured strobe effect.
+* q and e shift colours read by one byte which gives a nice coloured strobe effect.
 
 Also in this repo is a version of the generateme script with improved performance.
