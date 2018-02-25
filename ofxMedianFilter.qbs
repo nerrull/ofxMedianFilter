@@ -12,9 +12,14 @@ Project{
         name: { return FileInfo.baseName(path) }
 
         files: [
-            'src/main.cpp',
-            'src/ofApp.cpp',
-            'src/ofApp.h',
+            "bin/data/median.frag",
+            "bin/data/median.vert",
+            "bin/data/median_mac.frag",
+            "bin/data/median_mac.vert",
+            "src/sortnetwork.cpp",
+            "src/main.cpp",
+            "src/ofApp.cpp",
+            "src/ofApp.h",
         ]
 
         of.addons: [
