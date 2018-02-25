@@ -66,7 +66,7 @@ void ofApp::setup(){
         }
     }
 
-    shader.load("median");
+    shader.load("median_mac");
 
     fbo.allocate(imageWidth, imageHeight);
     fbo.begin();
@@ -101,7 +101,7 @@ void ofApp::update(){
            shader.begin();
            shader.setUniform1i("index", select);
            //shader.setUniformTexture("tex0", fbo.getTexture(), 0);
-           //shader.setUniform1i("mode", 0);
+           shader.setUniform1i("mode", 0);
 
            fbo.draw(0,0);
            shader.end();
@@ -115,7 +115,7 @@ void ofApp::update(){
            shader.setUniform1i("index", select);
            //shader.setUniformTexture("tex0", fbo2.getTexture(), 0);
            //texturedQuad(0, 0, fbo2.getWidth(), fbo2.getHeight());
-           //shader.setUniform1i("mode", 0);
+           shader.setUniform1i("mode", 0);
 
            fbo2.draw(0,0);
            shader.end();
